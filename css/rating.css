@@ -1,0 +1,103 @@
+/*  styles for the unit rater
+--------------------------------------------------------- 
+ryan masuga, masugadesign.com
+ryan@masugadesign.com 
+Licensed under a Creative Commons Attribution 3.0 License.
+http://creativecommons.org/licenses/by/3.0/
+See readme.txt for full credit details.
+--------------------------------------------------------- */
+
+.ratingblock {
+	display:block;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	}
+
+.loading {
+	height: 30px;
+	background: url('../images/working.gif') 50% 50% no-repeat;
+	}
+	
+.unit-rating { /* the UL */
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	height:18px;
+	position: relative;
+	background: url('../images/starrating.gif') top left repeat-x;		
+	}
+
+.unit-rating li{
+    text-indent: -90000px;
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+	}
+	
+.unit-rating li a {
+	outline: none;
+	display:block;
+	width:17px;
+	height:18px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+	top:0px;
+	}
+	
+.unit-rating li a:hover{
+	background: url('../images/starrating.gif') left center;
+	z-index: 2;
+	left: 0px;
+	}
+
+.unit-rating a.r1-unit{left: 0px;}
+.unit-rating a.r1-unit:hover{width:17px;}
+.unit-rating a.r2-unit{left:17px;}
+
+.unit-rating a.r2-unit:hover{width:34px;}
+.unit-rating a.r3-unit{left:34px;}
+
+.unit-rating a.r3-unit:hover{width:51px;}
+.unit-rating a.r4-unit{left:51px;}	
+
+.unit-rating a.r4-unit:hover{width:68px;}
+.unit-rating a.r5-unit{left:68px;}
+
+.unit-rating a.r5-unit:hover{width:85px;}
+.unit-rating a.r6-unit{left:85px;}
+
+.unit-rating a.r6-unit:hover{width:102px;}
+.unit-rating a.r7-unit{left:102px;}
+
+.unit-rating a.r7-unit:hover{width:119px;}
+.unit-rating a.r8-unit{left:119px;}
+
+.unit-rating a.r8-unit:hover{width:136px;}
+.unit-rating a.r9-unit{left:136px;}
+
+.unit-rating a.r9-unit:hover{width:153px;}
+.unit-rating a.r10-unit{left:153px;}
+.unit-rating a.r10-unit:hover{width:170px;}
+
+.unit-rating li.current-rating {
+	background: url('../images/starrating.gif') left bottom;
+	position: absolute;
+	height:18px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+	}
+
+.voted {color:#999;}
+.thanks {color:#FFFFFF; float:left;}
+.static {color:#5D3126;}		
+
+.rate-num{float: left !important; padding-left:179px !important;}
+.rate-left{width:470px !important; float:left !important;}
+.rate-right{width:230px !important; float:left !important;}

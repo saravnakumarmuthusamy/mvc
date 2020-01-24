@@ -1,0 +1,348 @@
+body{
+	background: url(../images/Login_page_bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    background-position: 100%;
+    height: 100%;
+}
+section#signUp {
+        padding: 7%;
+}
+form#registerForm .col.d-flex {
+    flex-direction: row;
+}
+.sign-info {
+	width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #00e3e3, #00c5fe, #00a0ff, #0072ff, #1803ff) !important;
+}
+.sign-form {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.WelcomeContent{
+	padding: 15% 15% 0;
+}
+.WelcomeContent p{
+    font-size: 12px;
+}
+.loginForm{
+	padding: 20%;
+	color: #999;
+}
+.signin-form{
+	padding-top: 20%;
+}
+input.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 25px;
+}
+.button_sec{
+	margin-top: 10%;
+}
+.button_sec button {
+    border-radius: 100px;
+    font-size: 9px;
+    padding: 10px 10px;
+    width: 100%;
+}
+.signin-form input.form-control:focus {
+    box-shadow: none;
+    border-color: #eee;
+}
+.facebook-btn {
+    background: #3B5998;
+    color: #fff;
+    box-shadow: 0px 7px 12px -2px rgba(0,0,0,0.5) !important;
+}
+.linkedIn-btn {
+    background: #4875B4;
+    color: #fff;
+    box-shadow: 0px 7px 12px -2px rgba(0,0,0,0.5) !important;
+}
+.facebook-btn:hover {
+    background: #3B5998;
+    color: #fff;
+}
+.linkedIn-btn:hover {
+    background: #4875B4;
+    color: #fff;
+}
+.myIcons{
+	position: absolute;
+    bottom: 15px;
+    color: #fff;
+    left: 24px;
+    font-size: 14px;
+}
+.ForgotPassWord {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.submitBtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+.submitBtn button {
+    border-radius: 100px;
+   /* padding: 12px 25px;*/
+}
+.submit-btn{
+	background-image: linear-gradient(to bottom, #00e3e3, #00c5fe, #00a0ff, #0072ff, #1803ff) !important;
+    padding: 5px 26px;
+    color: #fff;
+    width: 70%;
+    border: none;
+}
+.submit-btn:hover{
+	background-image: linear-gradient(to bottom, #00e3e3, #00c5fe, #00a0ff, #0072ff, #1803ff) !important;
+    padding: 5px 26px;
+    color: #fff;
+    width: 70%;
+    border: none;
+}
+.submitIcon{
+	position: relative;
+    right: 50px;
+    color: #fff;
+}
+.newUser {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.newUser a{
+	color: #007bff !important;
+    font-weight: bold;
+}
+.signin-form .form-control{
+    padding: 0px;
+}
+.signin-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 14px;
+  color: #999;
+}
+.signin-form input::-moz-placeholder { /* Firefox 19+ */
+  font-size: 14px;
+  color: #999;
+}
+.signin-form input:-ms-input-placeholder { /* IE 10+ */
+  font-size: 14px;
+  color: #999;
+}
+.signin-form input:-moz-placeholder { /* Firefox 18- */
+  font-size: 14px;
+  color: #999;
+}
+.form-check-inline{
+        flex-grow: 1;
+}
+.profileProp:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    background-color: #bebebe;
+    top: 50px;
+    right: 0;
+}
+    .profileProp{
+        padding: 50px;
+    }
+    .profileProp img{
+    padding-bottom: 0;
+    border: 5px solid #00a0ff;
+    width: 299px;
+    height: auto;
+}
+.profileProp .progress{
+    width: 60%;
+    border-radius: 60px;
+}
+.profileProp .progress .progress-bar{
+    background-image: linear-gradient(to left, #00e3e3, #00c5fe, #00a0ff, #0072ff, #1803ff) !important;
+     border-radius: 60px;
+}
+
+.profileProp .pinfo{
+    color: #bebebe !important;
+    font-size: 18px;
+    padding-right: 4%;
+}
+.profileDetails{
+    padding: 50px;
+}
+
+.ProfileTabSection{
+    margin-top: 10%;
+}
+.ProfileTabSection ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #666666;
+    background-color: #fff;
+    border-color: #fff #fff #00a0ff;
+    border-bottom: 5px solid #00a0ff;
+    font-weight: 600;
+}
+.ProfileTabSection ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: #bebebe;
+}
+.ProfileTabSection ul li .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    color: #666666;
+    background-color: #fff;
+    border-color: #fff #fff #00a0ff;
+    border-bottom: 5px solid #00a0ff;
+    font-weight: 600;
+}
+.surCompleted {
+    width: 100%;
+   /* border: 1px solid #007bff;*/
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: left;
+}
+div#personalInfo p, #demoGraphics p {
+    height: 50px;
+}
+.tab-content {
+    margin-top: 4%;
+}
+p.cellValue:before {
+    position: absolute;
+    content: ": ";
+    left: 0;
+}
+.mentor_mentee {
+    margin-top: 5%;
+}
+.my-mentee textarea, .my-resources textarea {
+    width: 90%;
+}
+sapn.edit {
+    float: right;
+    margin-right: 60px;
+    color: #007bff;
+}
+
+
+.header-logo{
+    width: 10%;
+}
+.myHeader{
+    border-bottom: 2px solid #bebebe;
+}
+.myHeader a{
+    color: #009aff;
+}
+
+
+
+@media(max-width: 1024px){
+    .loginForm {
+    padding: 20% 12%;
+}
+    form#registerForm .col.d-flex {
+    flex-direction: column;
+}
+.sign-form.sign-up {
+    padding: 6%;
+}
+.my-mentee textarea, .my-resources textarea {
+    width: 100%;
+}
+sapn.edit {
+    margin-right: 0px;
+}
+}  
+
+@media (max-width:768px){
+    body {
+        overflow: scroll;
+}
+.profileProp {
+    padding: 50px 15px;
+}
+	.loginForm {
+    padding: 10%;
+}input.form-control {
+        margin-top: 16px;
+    }
+    .profileProp .progress {
+    width: 100%;
+}.profileDetails {
+    padding: 50px 15px;
+}
+
+
+	}
+@media (max-width:767px){
+    body {
+    height: auto;
+}
+section#signUp {
+    padding: 5%;
+}
+    .WelcomeContent {
+        padding: 10%;
+    }
+    .sign-form {
+        height: 100%;
+    }
+    .sign-info {
+        height: 100%;  
+    }
+    .loginForm{
+    	padding:15% 10%;
+    }
+    .sign-form.sign-up {
+    padding: 0 0 20px 0; 
+}
+    .submit-btn {
+    width: 88%;
+    height: 36px;
+}
+    .profileProp {
+    padding: 15px;
+}
+.profileProp:after {
+       display: none;
+    }
+.profileDetails {
+    padding: 15px;
+}
+
+.profileDetails h2 {
+    font-size: 24px;
+}
+.p-3 {
+    padding: .25rem!important;
+}
+.ProfileTabSection {
+    padding-bottom: 50px;
+}
+a.nav-link {
+    font-size: 11px;
+    padding: 5px 3px;
+}
+.tab-content {
+    margin-top: 10%;
+}
+ .my-mentee {
+    margin: 20px 0;
+}
+sapn.edit {
+    margin-right:40px;
+}
+button.btn.submit-btn.member-list {
+    width: 60%;
+}
+}

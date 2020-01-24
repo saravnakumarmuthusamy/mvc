@@ -1,0 +1,59 @@
+/* Tab Menu*/
+.clear {
+	clear:both;
+	display:block;
+}
+#tabmenu ul {
+	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#tabmenu li {
+	float:left;
+	list-style-type: none;
+	cursor:hand;margin:0px;
+	padding: 0px;
+}
+#tabmenu a {
+	color: #2d2d2d;
+	background:url(../images/tab_nor.png) no-repeat;
+	height:21px;
+	width:142px;
+	font: 13px Arial, sans-serif;
+	font-weight:bold;
+	padding: 5px 1px 0px 1px;
+	margin: 0px;
+	text-decoration: none;
+	cursor:hand;
+	display:block;
+	text-align:center;
+}
+#tabmenu a.active {
+	background:url(../images/tab_active.png) no-repeat;
+	display:block;
+	color: #ffffff;
+	cursor:hand;
+}
+#tabmenu a:hover {
+	color: #ffffff;
+	background:url(../images/tab_active.png) no-repeat;
+	display:block;
+	cursor:hand;
+}
+#tabmenu a:visited {
+	color: #2d2d2d;
+	cursor:hand;
+}
+#tabmenu a.active:hover {
+	background:url(../images/tab_active.png) no-repeat;
+	color: #2d2d2d;
+	cursor:hand;
+}
+#content {
+	padding:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background-color: #F7F7F7;
+	line-height: 28px;
+}

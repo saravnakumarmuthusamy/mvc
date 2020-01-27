@@ -59,6 +59,8 @@ Git Command
 
   git checkout master
 
+  git checkout -b branchname(Checkout with new Branch)
+
   git merge branchname
 
   push code from local to Remote

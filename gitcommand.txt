@@ -77,6 +77,26 @@ Git Command
 
 
 
+  git stash/
+  ===========
+
+  without commit swich from one branch to master
+  ===============================================
+
+  git branch --force master
+
+  git stash save stashname
+
+  git stash apply stashid
+
+  git stash list 
+
+  git stash pop
+
+  git stash clear
+
+  git stash drop stashid
+
   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 

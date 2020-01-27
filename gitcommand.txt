@@ -1,0 +1,94 @@
+Git Command
+===========  
+ 
+  git init slica_repo
+  git config --global --unset-all http.proxy
+  git config --list
+
+  git config --global user.email "saravanitech@gmail.com"
+  git config --global user.name "saravanakumarmuthusamy"
+  
+
+  To Move File from Local to Remote
+  =================================
+
+  git remote add origin https://github.com/saravnakumarmuthusamy/mvc.git
+
+  git push -u origin master
+
+
+  To Move/Update File From Local to Remote
+  =========================================
+
+  pull remote to local on Master Branch
+  ======================================
+
+  git pull origin master
+
+  create new Branch for New Changes
+  ================================
+
+  git branch branchname
+
+  switch to new branch
+  ====================
+
+  git checkout branchname
+
+  check file changes
+  ==================
+  git log
+  git status
+
+  add file for Commit
+  ===================
+
+  git add filename
+
+  git add * (for all Add)
+
+
+  commit file to this Branch for changes
+  ======================================
+
+  git commit -m "Commit Images"
+
+
+  switch to master for merging  Fine branch
+  ==========================================
+
+  git checkout master
+
+  git merge branchname
+
+  push code from local to Remote
+  ================================
+
+  git push origin master
+
+  git branch delete
+
+  git branch -d branchName
+  git branch -D branchname (Force delete)
+
+  git List
+  ========
+  git branch
+
+
+
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

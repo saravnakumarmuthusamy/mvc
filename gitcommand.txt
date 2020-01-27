@@ -48,6 +48,13 @@ Git Command
   git add * (for all Add)
 
 
+  git remove File
+  ==============
+  git rm -r  git\ command.txt         
+
+  git rm -rf filename (r recursive f force)
+
+
   commit file to this Branch for changes
   ======================================
 

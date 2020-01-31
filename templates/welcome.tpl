@@ -20,7 +20,7 @@
 		<div class="row">
 			<div class="col d-flex" style="flex-direction: column;justify-content: center;width: 100%;height: 100vh;text-align: center;">
 				<h1 class="text-white">Thank you for Signing up!</h1>
-				<p class="text-white" style="font-size: 24px;">You will recieve an email to login once your account is approved. You will hear back from us soon!!!!!!</p>
+				<p class="text-white" style="font-size: 24px;">You test</p>
 			</div>
 		</div>
 	</div>
